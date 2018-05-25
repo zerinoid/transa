@@ -2,13 +2,78 @@
 // Fonts
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 
-// Variables
-@import "variables";
+body {
+  background-image: url('../images/back2.jpg');
+  margin: 0;
+}
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+a {
+  text-decoration: none;
+  color: black;
+}
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+a:visited {
+  color: black;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#geral {
+   width: 100%;
+   padding: 70px 0;
+   box-sizing: border-box;
+}
+
+#box {
+	margin: 0 auto;
+	height: auto;
+	background-color: transparent;
+	display: grid;
+	grid-template-rows: 0.9fr 0.4fr 3fr;
+	grid-row-gap: 0.5em;
+	border: 1px solid;
+	width: 65%;
+}
+
+.row {
+	background-color: #ca91f8;
+}
+
+#titulo {
+	font-size: 73px;
+}
+
+#box-titulo {
+	display: flex;
+ 	margin: 13px auto;
+ 	max-width: 414px;
+}
+
+#menu {
+	padding: 0px 20px;
+}
+
+#box-menu {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+.sub-menu {
+	padding: 10px 0;
+}
+
+#conteudo {
+
+}
+
+#box-conteudo {
+	margin: 50px auto 85px;
+ 	width: 84%;
+ 	height: auto;
 }
