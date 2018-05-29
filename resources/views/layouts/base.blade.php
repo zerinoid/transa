@@ -10,21 +10,28 @@
 <body>
 	<div id="geral">
 		<div id="box">
-			<div class="row" id="titulo">
+			<div id="titulo">
 				<div id="box-titulo">
-					transaKrYtica
+					transaKryTica
 				</div>
 			</div>
-			<div class="row" id="menu">
-				<div id="box-menu">
+			<div id="menu">
+				<div id="box-menu1">
 					<div class="sub-menu">item1</div>
 					<div class="sub-menu">item2</div>
 					<div class="sub-menu">item3</div>
 					<div class="sub-menu">item4</div>
 					<div class="sub-menu">item5</div>
 				</div>
+				<div id="box-menu2">
+					<div class="sub-menu">item6</div>
+					<div class="sub-menu">item7</div>
+					<div class="sub-menu">item8</div>
+					<div class="sub-menu">item9</div>
+					<div class="sub-menu">item10</div>
+				</div>
 			</div>
-			<div class="row" id="conteudo">
+			<div id="conteudo">
 				@yield('conteudo')
 			</div>
 		</div>

@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+/*Vars*/
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css?family=Anaheim|Noto+Sans|Ubuntu:500");
 body {
   background-image: url("../images/fundo_limpo.jpg");
   background-size: cover;
@@ -22,16 +24,13 @@ img {
 
 #box {
   margin: 0 auto;
-  height: auto;
+  height: 708px;
   background-color: transparent;
-  display: grid;
-  grid-template-rows: 0.9fr 0.4fr 3fr;
-  grid-row-gap: 0.5em;
-  border: 1px solid;
-  width: 65%; }
-
-.row {
-  background-color: #ca91f8; }
+  border: 6px solid aliceblue;
+  width: 700px;
+  position: relative;
+  color: white;
+  font-family: 'Anaheim', sans-serif; }
 
 #titulo {
   font-size: 73px; }
@@ -39,24 +38,34 @@ img {
 #box-titulo {
   display: flex;
   margin: 13px auto;
-  max-width: 414px; }
+  max-width: 394px; }
 
 #menu {
-  padding: 0px 20px; }
+  z-index: 1;
+  /*position: absolute;*/ }
 
-#box-menu {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 100%;
-  height: 100%; }
+#box-menu1 {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-left: 20px; }
+
+#box-menu2 {
+  text-align: right;
+  margin-right: 20px; }
 
 .sub-menu {
   padding: 10px 0; }
 
-#box-conteudo {
-  margin: 50px auto 85px;
-  width: 84%;
-  height: auto; }
+#conteudo {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 350px 606.2px 350px;
+  border-color: transparent transparent #7700ff transparent;
+  z-index: 2;
+  position: absolute;
+  top: 102px;
+  /*left: 0;*/ }
 
 /*# sourceMappingURL=app.css.map */
