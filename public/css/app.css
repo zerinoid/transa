@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 body {
-  background-image: url("../images/back2.jpg");
+  background-image: url("../images/fundo_limpo.jpg");
+  background-size: cover;
   margin: 0; }
 
 a {
