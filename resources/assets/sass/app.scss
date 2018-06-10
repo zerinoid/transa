@@ -1,14 +1,13 @@
-/*Vars*/
-
-
-/*Fonts*/
-
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
 
+@font-face {
+	font-family: Orator;
+	src: url('../fonts/OratorStd.otf');
+}
 
 html, body {
   background-image: url('../images/fundo_composto_2018.jpg');
-  color: white;
+  color: #030303;
   background-size: cover;
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -17,46 +16,33 @@ html, body {
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a:visited {
-  color: white;
-}
-
 img {
   width: 100%;
   height: 100%;
 }
 
-.full-height {
+.container {
 	height: 100vh;
-}
-
-.flex-center {
 	align-items: center;
-	display: none;
+	display: flex;
 	justify-content: center;
-}
-
-.position-ref {
 	position: relative;
 }
 
-.top-right {
-	position: absolute;
-	right: 10px;
-	top: 18px;
-}
-
-.content {
+.conteudo {
 	text-align: center;
+	background: rgba(198, 168, 168, 0.8);
+	mix-blend-mode: difference;
 }
 
-.title {
-	font-size: 84px;
+.titulo {
+	font-size: 66px;
+	font-family: Orator, Raleway;
+	height: 108px;
+}
+
+.links {
+	margin: 0 0 15px;
 }
 
 .links > a {
@@ -67,8 +53,4 @@ img {
 	letter-spacing: .1rem;
 	text-decoration: none;
 	text-transform: uppercase;
-}
-
-.m-b-md {
-	margin-bottom: 30px;
 }

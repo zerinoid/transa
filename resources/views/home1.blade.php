@@ -11,9 +11,9 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            <div class="content">
-                <div class="title m-b-md">
+        <div class="container">
+            <div class="conteudo">
+                <div class="titulo">
                     transaKryTica
                 </div>
 
