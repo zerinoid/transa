@@ -24,5 +24,7 @@
         "popper.js": "^1.12",
         "vue": "^2.5.7"
     },
-    "dependencies": {}
+    "dependencies": {
+        "fullpage.js": "^2.9.7"
+    }
 }

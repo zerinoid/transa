@@ -35,6 +35,10 @@ gulp.task('compress', function() {
     //JS
     gulp.src('node_modules/jquery/dist/jquery.min.js')
         .pipe(gulp.dest('public/js'));
+    gulp.src('node_modules/fullpage.js/dist/jquery.fullpage.min.js')
+        .pipe(gulp.dest('public/js'));
+    gulp.src('node_modules/fullpage.js/dist/jquery.fullpage.min.css')
+        .pipe(gulp.dest('public/css'));
     //CSS
     // gulp.src('node_modules/perfect-scrollbar/css/perfect-scrollbar.css')
     //     .pipe(gulp.dest('public/css'));

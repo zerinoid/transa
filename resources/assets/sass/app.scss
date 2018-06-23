@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,600');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,400,600');
 
 @font-face {
 	font-family: Orator;
@@ -6,14 +6,15 @@
 }
 
 html, body {
+  box-sizing: border-box;
   background-image: url('../images/fundo_composto_2018.jpg');
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   margin: 0;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 100;
   height: 100vh;
   margin: 0;
-  color: rgba(255, 255, 255, 0.91);
+  color: rgba(255, 255, 255, 1);
 }
 
 img {
@@ -21,7 +22,13 @@ img {
   height: 100%;
 }
 
-.container {
+a {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.section {
 	height: 100vh;
 	align-items: center;
 	display: flex;
@@ -30,32 +37,39 @@ img {
 }
 
 .conteudo {
-	text-align: center;
+	width: 75%;
+	padding: 10px 25px;
+	background: rgba(0, 0, 0, 0.85);
+	mix-blend-mode: hard-light;
 }
 
-.titulo {
+#titulo {
 	font-size: 66px;
 	font-family: Orator, Raleway;
 	height: 108px;
 	background: rgba(122, 122, 122, 0.9);
+	color: rgba(255, 255, 255, 0.91);
 	mix-blend-mode: difference;
+	text-align: center;
 }
 
-.links {
+#menu {
 	padding: 13px 0;
 	background: rgba(0, 0, 0, 0.85);
 	mix-blend-mode: hard-light;
 }
 
-a {
-	color: rgba(255, 255, 255, 1);
-}
 
-.links > a {
+#menu > a {
 	padding: 0 25px;
 	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
 	letter-spacing: .1rem;
-	text-decoration: none;
-	text-transform: uppercase;
+}
+
+#sobre {
+	mix-blend-mode: normal;
+	font-family: Arial,Helvetica;
+	font-size: 0.9em;
 }
