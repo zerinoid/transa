@@ -22,9 +22,9 @@
 // });
 
 $(document).ready(function() {
-	$('#fullpage').fullpage({
-		anchors: ['page1', 'page2'],
- 		sectionsColor: ['yellow', 'orange'],
-	});
-	$.fn.fullpage.setScrollingSpeed(2000);
+	// $('#fullpage').fullpage({
+	// 	anchors: ['page1', 'page2'],
+	// 	scrollingSpeed: 1500,
+	// 	// fixedElements: '#head'
+	// });
 });
