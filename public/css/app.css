@@ -12,23 +12,33 @@ a {
   text-decoration: none;
   text-transform: uppercase; }
 
-.xxx {
-  height: 100vh;
-  align-items: center;
+.flex-center {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: center; }
+
+.inter {
+  height: 100vh;
   position: relative;
   background-image: url("../images/fundo_composto_2018.jpg");
-  /*background-size: cover;*/
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
-  /*background-repeat: no-repeat;*/ }
+  background-position: center center; }
 
-.conteudo {
+.black-box {
   width: 75%;
   padding: 10px 25px;
   background: rgba(0, 0, 0, 0.85);
   mix-blend-mode: hard-light; }
+
+.galleria {
+  max-width: 100%;
+  height: 100%;
+  background: #000; }
+
+.gal {
+  width: 85%;
+  height: 86%; }
 
 #titulo {
   font-size: 66px;
@@ -55,19 +65,5 @@ a {
   mix-blend-mode: normal;
   font-family: Arial,Helvetica;
   font-size: 0.9em; }
-
-.clear {
-  clear: both; }
-
-.photo-link {
-  padding: 5px;
-  margin: 5px;
-  border: 1px solid #ccc;
-  display: block;
-  width: 200px;
-  float: left; }
-
-.photo-link:hover {
-  border-color: #999; }
 
 /*# sourceMappingURL=app.css.map */
