@@ -5,7 +5,11 @@
 
 body {
   margin: 0;
-  color: white; }
+  color: white;
+  background-image: url("../images/fundo_composto_2018.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center; }
 
 a {
   color: white;
@@ -20,10 +24,10 @@ a {
 .inter {
   height: 100vh;
   position: relative;
-  background-image: url("../images/fundo_composto_2018.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center; }
+  /*	background-image: url('../images/fundo_composto_2018.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;*/ }
 
 .black-box {
   width: 75%;
@@ -33,21 +37,30 @@ a {
 
 .galleria {
   max-width: 100%;
-  height: 100%;
+  height: 77%;
   background: #000; }
 
 .gal {
   width: 85%;
-  height: 86%; }
+  height: 95%; }
 
-#titulo {
+.diff {
+  background: rgba(122, 122, 122, 0.9);
+  color: rgba(255, 255, 255, 0.91);
+  mix-blend-mode: difference; }
+
+#titulo-h {
   font-size: 66px;
   font-family: Orator, Raleway;
   height: 108px;
-  background: rgba(122, 122, 122, 0.9);
-  color: rgba(255, 255, 255, 0.91);
-  mix-blend-mode: difference;
   text-align: center; }
+
+#titulo-g {
+  font-size: 48px;
+  font-family: Orator, Raleway;
+  height: 68px;
+  text-align: left;
+  padding: 0 0 0 10px; }
 
 #menu {
   padding: 13px 0;

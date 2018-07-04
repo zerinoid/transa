@@ -23,6 +23,7 @@
 
 $(document).ready(function() {
 	$('#fullpage').fullpage({
+		licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
 		anchors: ['page1', 'page2'],
 		scrollingSpeed: 1500,
 		// fixedElements: '#head'

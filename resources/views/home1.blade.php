@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <link rel="stylesheet" href="{{asset('css/jquery.fullpage.css')}}"> 
+    <link rel="stylesheet" href="{{asset('css/fullpage.min.css')}}"> 
     <script src="{{asset('js/jquery.min.js')}}"></script>
     <script src="{{asset('js/app.min.js')}}"></script>
     <script src="{{asset('js/galleria-1.5.7.min.js')}}"></script>
-    <script src="{{asset('js/jquery.fullpage.min.js')}}"></script>
+    <script src="{{asset('js/galleria.flickr.min.js')}}"></script>
+    <script src="{{asset('js/fullpage.min.js')}}"></script>
     <title>▲</title>
 </head>
 <body> 
@@ -18,15 +19,15 @@
         <div class= "section" data-anchor="page1">
             <div class="inter flex-center">
                 <div id="head">
-                    <div id="titulo">
+                    <div class="diff" id="titulo-h">
                         transaKryTica
                     </div>
                     <div id="menu">                        
                         <a href="#page2">sobre</a>
-                        <a href="#page3">lowcura</a>
-                        <a href="#">flerte</a>
+                        <a href="#page3">flerte</a>
+                        <a href="#">lowcura</a>
                         <a href="#">gentes</a>
-                        <a href="#">mídia</a>
+                        <a href="#">contato</a>
                     </div>
                 </div>
             </div>
@@ -54,16 +55,21 @@
        </div>
        <div class="section" data-anchor="page3">
         <div class="inter flex-center">
-            <div class="gal">           
+            <div class="gal">
+                <div class="diff" id="titulo-g">
+                  <p>2016 ------------------</p>
+                </div>
                 <div class="galleria">
-                    <img src="{{asset('0001.jpg')}}">
-                    <img src="{{asset('0002.jpg')}}">
-                    <img src="{{asset('0003.jpg')}}">
                 </div>
                 <script>
                     (function() { 
                         Galleria.loadTheme('{{asset('js/themes/classic/galleria.classic.min.js')}}');
-                        Galleria.run('.galleria');
+                        Galleria.run('.galleria',{
+                          flickr: 'set:72157695507835492',
+                          flickrOptions: {
+                                sort: 'date-posted-desc'
+                             }
+                        });
                     }());
                 </script>
             </div>
