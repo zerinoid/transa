@@ -1,6 +1,6 @@
-<div class="txt-wrap">
+<div class="txt-wrap">    
     <div class="diff titulo-g">
-        <p>transa</p>
+        <p>personas</p>
     </div>  
     <div class="black-box">
         <div class="texto">

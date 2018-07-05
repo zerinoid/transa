@@ -14,7 +14,3 @@
 Route::get('/', function () {
     return view('home1');
 });
-
-Route::get('/sobre', function () {
-    return view('sobre');
-});

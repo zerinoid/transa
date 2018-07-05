@@ -8,10 +8,6 @@
 body {
 	margin: 0;
 	color: rgba(255, 255, 255, 1);
-	background-image: url('../images/fundo_composto_2018.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;	
 }
 
 
@@ -21,6 +17,17 @@ a {
 	text-transform: uppercase;
 }
 
+.section {
+	background-image: url('../images/fundo_composto_2018.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;	
+}
+
+.inter {
+	height: 100vh;
+	position: relative;
+}
 
 .flex-center {
 	display: flex;
@@ -28,17 +35,14 @@ a {
 	justify-content: center;
 }
 
-.inter {
-	height: 100vh;
-	position: relative;
-/*	background-image: url('../images/fundo_composto_2018.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;*/
+
+.diff {
+	background: rgba(122, 122, 122, 0.9);
+	color: rgba(255, 255, 255, 0.91);
+	mix-blend-mode: difference;
 }
 
 .black-box {
-	width: 75%;
 	padding: 10px 25px;
 	background: rgba(0, 0, 0, 0.85);
 	mix-blend-mode: hard-light;
@@ -48,38 +52,48 @@ a {
 	max-width: 100%; height: 77%; background: #000
 }
 
-.gal {
+.gal-wrap {
 	width: 85%;
-	height: 95%
+	height: 95%;
 }
 
-.diff {
-	background: rgba(122, 122, 122, 0.9);
-	color: rgba(255, 255, 255, 0.91);
-	mix-blend-mode: difference;
+.txt-wrap {
+	width: 85%;
+	height: 68%;
+}
+
+.texto {
+	mix-blend-mode: normal;
+	font-family: Arial,Helvetica;
+	font-size: 0.9em;
+}
+
+#head {
+	width: 75%;
 }
 
 #titulo-h {
 	font-size: 66px;
 	font-family: Orator, Raleway;
 	height: 108px;
-	text-align: center;
+	text-align: center; 
 }
 
-#titulo-g {
+.titulo-g {
 	font-size: 48px;
 	font-family: Orator, Raleway;
 	height: 68px;
 	text-align: left;
-	padding: 0 0 0 10px;
+	padding: 0 0 0 18px;
 }
 
 #menu {
 	padding: 13px 0;
 	background: rgba(0, 0, 0, 0.85);
 	mix-blend-mode: hard-light;
+	display: flex;
+	justify-content: center;
 }
-
 
 #menu > a {
 	padding: 0 25px;
@@ -89,9 +103,5 @@ a {
 	letter-spacing: .1rem;
 }
 
-#sobre {
-	mix-blend-mode: normal;
-	font-family: Arial,Helvetica;
-	font-size: 0.9em;
-}
+
 

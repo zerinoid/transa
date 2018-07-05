@@ -26,6 +26,7 @@ $(document).ready(function() {
 		licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
 		anchors: ['page1', 'page2'],
 		scrollingSpeed: 1500,
+		css3: false,
 		// fixedElements: '#head'
 	});
 });
