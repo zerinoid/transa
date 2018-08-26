@@ -3,7 +3,6 @@
         <p>2016 -------------- MURAL FLERTE</p>
     </div>
     <div class="galleria">
-    </div>
     <script>
         (function() { 
             Galleria.loadTheme('{{asset('js/themes/classic/galleria.classic.min.js')}}');
@@ -15,4 +14,5 @@
             });
         }());
     </script>
+    </div>
 </div>
