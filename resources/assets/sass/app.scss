@@ -18,15 +18,16 @@ a {
 }
 
 .section {
-	background-image: url('../images/fundo_composto_2018.jpg');
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center center;	
+
 }
 
 .inter {
 	height: 100vh;
 	position: relative;
+	background-image: url('../images/fundo_composto_2018.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
 }
 
 .flex-center {
@@ -48,13 +49,22 @@ a {
 	mix-blend-mode: hard-light;
 }
 
-.galleria {
-	max-width: 100%; height: 77%; background: #000
+.galeria {
+	padding: 18px 10px;
+	background: #000;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.galeria img {
+	margin: 3px 15px;
 }
 
 .gal-wrap {
 	width: 85%;
-	height: 95%;
+	height: 90%;
+
 }
 
 .txt-wrap {
@@ -70,6 +80,7 @@ a {
 
 #head {
 	width: 75%;
+	height: 26%;
 }
 
 #titulo-h {

@@ -2,12 +2,12 @@
     <div class="diff titulo-g">
         <p>2016 -------------- MURAL FLERTE</p>
     </div>
-    <div class="black-box">
+    <div class="galeria">
         <?php 
         /** settings **/ 
         $images_dir = 'images/2016/'; 
         $thumbs_dir = 'thumbs/'; 
-        $thumbs_width = 200; 
+        $thumbs_width = 100; 
         $images_per_row = 5; 
 
         /** generate photo gallery **/ 
@@ -24,7 +24,6 @@
                  } 
              } 
              echo '<a href="',$images_dir.$file,'" data-lightbox="image-1" rel="gallery"><img src="',$thumbnail_image,'" /></a>'; 
-             if($index % $images_per_row == 0) { echo '<div class="clear"></div>'; } 
          } 
          echo '<div class="clear"></div>'; 
      } 

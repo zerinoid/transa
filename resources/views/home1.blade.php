@@ -11,24 +11,23 @@
     <script src="{{asset('js/jquery.min.js')}}"></script>
     <script src="{{asset('js/app.min.js')}}"></script>
     <script src="{{asset('js/lightbox.js')}}"></script>
-    <script src="{{asset('js/galleria-1.5.7.min.js')}}"></script>
-    <script src="{{asset('js/galleria.flickr.min.js')}}"></script>
+    <script src="{{asset('js/scrolloverflow.js')}}"></script>
     <script src="{{asset('js/fullpage.min.js')}}"></script>
     <title>▲</title>
 </head>
 <body> 
     <div id="fullpage">   
-        <div class= "section" data-anchor="page1">
+        <div class= "section" data-anchor="headd">
             <div class="inter flex-center">
                 @include('elements.head')
             </div>
         </div>
-        <div class="section" data-anchor="page2">
+        <div class="section" data-anchor="about">
             <div class="inter flex-center">
                 @include('elements.sobre')  
             </div>
         </div>
-        <div class="section" data-anchor="page3">
+        <div class="section" data-anchor="gal1">
             <div class="inter flex-center">
                 @include('elements.auto_gal1')
             </div>          
@@ -38,7 +37,7 @@
                 @include('elements.galeria2')
             </div>
         </div> --}}
-        <div class="section" data-anchor="page4">
+        <div class="section" data-anchor="pes">
             <div class="inter flex-center">
                 @include('elements.pessoal')
             </div>
