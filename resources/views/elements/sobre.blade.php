@@ -1,20 +1,17 @@
 <div class="txt-wrap">
     <div class="diff titulo-g">
-        <p>transa</p>
+        <p><span class="traco">>>></span> Rede-Encruza <span class="traco"><<<</span></p>
     </div>  
     <div class="black-box">
         <div class="texto">
             <p>
-                Lorem ipsum ultrices ut semper congue nec, bibendum faucibus aptent phasellus adipiscing tortor ut, in curabitur semper ut facilisis. mi lacinia malesuada et sapien nostra mi cubilia rhoncus nullam venenatis eros potenti curae, quam est phasellus suspendisse sapien lectus turpis dictum taciti suscipit a. luctus nisi etiam sagittis malesuada massa vulputate feugiat lorem, habitant fames risus vel tortor sollicitudin sem facilisis, posuere semper luctus duis massa varius purus. curae nisi volutpat nunc arcu cras hac ullamcorper varius, tristique erat in donec posuere etiam habitant placerat, dui ultrices eu cubilia et neque orci.                         
+                A TransaKrytica é uma rede de arte que tem como ações-peleja: performance, coreografia, intervenção, curadoria, hackeamento, mutretas&conluio, encruzilhamento de corpos e agenciamento de emoções no campo da sexualidade, da cura e da guerra.                         
             </p>
             <p>
-                Congue dictumst nullam leo hendrerit, volutpat ut cras. 
+                Uma rede cosmopolita de saberes que se vale de dinâmicas multindisciplinares. É movida pelas tensões vividas em sociedade frente às assimetrias sociais que produzem violências e apagamentos sentidos nos corpos simbólicos e materiais afroameríndios. Transakrytica reinvidica outras políticas e estéticas como arma na batalha de descolonizar. 
             </p>
             <p>
-                Lorem ipsum ultrices ut semper congue nec, bibendum faucibus aptent phasellus adipiscing tortor ut, in curabitur semper ut facilisis. mi lacinia malesuada et sapien nostra mi cubilia rhoncus nullam venenatis eros potenti curae, quam est phasellus suspendisse sapien lectus turpis dictum taciti suscipit a. luctus nisi etiam sagittis malesuada massa vulputate feugiat lorem, habitant fames risus vel tortor sollicitudin sem facilisis, posuere semper luctus duis massa varius purus. curae nisi volutpat nunc arcu cras hac ullamcorper varius, tristique erat in donec posuere etiam habitant placerat, dui ultrices eu cubilia et neque orci.                         
-            </p>
-            <p>
-                Congue dictumst nullam leo hendrerit, volutpat ut cras. 
+                Saber-aprender lidar com a diferença pelo trato da empatia e exercitar visões de mundo oblíquas e ubiquas são nossos desejos. Ver-enxergar como as imanências e emergências se dão em cada contexto. Estamos afim de travar uma crítica não-metódica, não-didática e não-funcional, e deixar-fazer-acontecer a crítica sim-precária, sim-incerta, sim-inapropriada, sim-processual, sim-cotidiana.                       
             </p>    
         </div> 
     </div>

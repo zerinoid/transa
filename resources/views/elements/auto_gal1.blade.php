@@ -1,6 +1,8 @@
 <div class="gal-wrap">
     <div class="diff titulo-g">
-        <p>2016 -------------- MURAL FLERTE</p>
+        <p>
+            2016 <span class="traco">--------------</span> <span class="final">MURAL FLERTE</span>
+        </p>
     </div>
     <div class="galeria">
         <?php 
