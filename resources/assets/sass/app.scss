@@ -17,6 +17,8 @@ a {
 	text-transform: uppercase;
 }
 
+
+
 .section {
 
 }
@@ -47,11 +49,15 @@ a {
 	padding: 10px 25px;
 	background: rgba(0, 0, 0, 0.85);
 	mix-blend-mode: hard-light;
+	overflow: auto;
+	height: 82%;
 }
 
 .galeria {
 	padding: 18px 10px;
 	background: #000;
+	overflow: auto;
+	height: 82%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -80,7 +86,7 @@ a {
 
 #head {
 	width: 75%;
-	height: 26%;
+	height: 33%;
 }
 
 #titulo-h {
@@ -96,6 +102,10 @@ a {
 	height: 68px;
 	text-align: left;
 	padding: 0 0 0 18px;
+}
+
+.titulo-g p {
+	margin: 0;
 }
 
 #menu {
