@@ -25,7 +25,7 @@
                         make_thumb($images_dir.$file,$thumbnail_image,$thumbs_width); 
                     } 
                 } 
-                echo '<a href="',$images_dir.$file,'" data-lightbox="image-1" rel="gallery"><img src="',$thumbnail_image,'" /></a>'; 
+                echo '<a href="',$images_dir.$file,'" data-lightbox="image-1" rel="gallery"><img data-src="',$thumbnail_image,'" /></a>'; 
             } 
             echo '<div class="clear"></div>'; 
         } 

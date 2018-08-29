@@ -4,9 +4,10 @@
     </div>
     <div id="menu" class="flex-center">                        
         <a href="#about">sobre</a>
-        <a href="#gal/0">flerte</a>
-        <a href="#gal/1">lowcura</a>
-        <a href="#pes">gentes</a>
+        <a href="#">ações</a>
+        <a href="#gal">imagens</a>
+        <a href="#gal">audios</a>
+        <a href="#pes">quem</a>
         <a href="#">contato</a>
     </div>
 </div>

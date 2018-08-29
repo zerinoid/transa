@@ -69,13 +69,13 @@ a {
   height: 30%; }
 
 #titulo-h {
-  font-size: 66px;
+  font-size: 4.12em;
   font-family: Orator, Raleway;
   height: 108px;
   text-align: center; }
 
 .titulo-g {
-  font-size: 48px;
+  font-size: 3em;
   font-family: Orator, Raleway;
   max-height: 130px;
   text-align: justify;
@@ -88,21 +88,23 @@ a {
   text-align: end; }
 
 #menu {
-  padding: 13px 0;
   background: rgba(0, 0, 0, 0.85);
   mix-blend-mode: hard-light;
-  display: flex;
-  justify-content: center; }
+  flex-wrap: wrap; }
 
 #menu > a {
-  padding: 0 25px;
+  padding: 13px 25px;
   font-size: 12px;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   letter-spacing: .1rem; }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 649px) {
   .traco {
-    display: none; } }
+    display: none; }
+  #head {
+    width: 90%; }
+  #titulo-h {
+    font-size: 2.7em; } }
 
 /*# sourceMappingURL=app.css.map */
