@@ -1,5 +1,5 @@
-<div class="gal-wrap">
-    <div class="diff titulo-g">
+<div id="gal1">
+    <div class="diff titulo-g" id="off1">
         <p>
             2016 <span class="traco">--------------</span> <span class="final">MURAL FLERTE</span>
         </p>

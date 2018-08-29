@@ -27,17 +27,12 @@
                 @include('elements.sobre')  
             </div>
         </div>
-        <div class="section" data-anchor="gal">
-            <div class="slide">     
-                <div class="inter flex-center">
-                  @include('elements.auto_gal1')
-                </div>
-            </div>
-            <div class="slide">
-                <div class="inter flex-center">
-                    @include('elements.auto_gal2')
-               </div>  
-           </div>            
+        <div class="section" data-anchor="med">
+            <div class="inter flex-center">
+              @include('elements.auto_gal1')
+              @include('elements.auto_gal2')
+              @include('elements.meios')
+            </div>            
         </div>
         <div class="section" data-anchor="pes">
             <div class="inter flex-center">

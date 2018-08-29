@@ -12,7 +12,8 @@
             </p>
             <p>
                 Saber-aprender lidar com a diferença pelo trato da empatia e exercitar visões de mundo oblíquas e ubiquas são nossos desejos. Ver-enxergar como as imanências e emergências se dão em cada contexto. Estamos afim de travar uma crítica não-metódica, não-didática e não-funcional, e deixar-fazer-acontecer a crítica sim-precária, sim-incerta, sim-inapropriada, sim-processual, sim-cotidiana.                       
-            </p>    
+            </p>
+            <button id="beck">▲▲▲</button>
         </div> 
     </div>
 </div>

@@ -24,24 +24,68 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
+		anchors: ['headd', 'about', 'med', 'pes'],
 		scrollingSpeed: 1500,
-		// scrollOverflow: true,
 		css3: false,
-		// fixedElements: '#head'
 	});
-	$('.galeria').bind('mousewheel DOMMouseScroll', function(e) {
-		var scrollTo = null;
+	//abre galeria 1; fecha meios
+	var gal1_aberta = false;
 
-		if (e.type == 'mousewheel') {
-			scrollTo = (e.originalEvent.wheelDelta * -1);
-		}
-		else if (e.type == 'DOMMouseScroll') {
-			scrollTo = 40 * e.originalEvent.detail;
-		}
+	$("#butgal1").click(function(){
+		
+		if(gal1_aberta == false){
+			$('#gal1').addClass('open');
+			$('#meios').addClass('close');
+			gal1_aberta = true;
+		} 
+	});
+	//fecha galeria 1; abre meios
+	$(".titulo-g").click(function(){
+		
+		if(gal1_aberta == true){
+			$('#gal1').removeClass('open');
+			$('#meios').removeClass('close');
+			gal1_aberta = false;
+		} 
+	});
+	//abre gal2; fecha meios
+	var gal2_aberta = false;
 
-		if (scrollTo) {
-			e.preventDefault();
-			$(this).scrollTop(scrollTo + $(this).scrollTop());
-		}
+	$("#butgal2").click(function(){
+		
+		if(gal2_aberta == false){
+			$('#gal2').addClass('open');
+			$('#meios').addClass('close');
+			gal2_aberta = true;
+		} 
+	});
+	//fecha gal2; abre meios
+	$(".titulo-g").click(function(){
+		
+		if(gal2_aberta == true){
+			$('#gal2').removeClass('open');
+			$('#meios').removeClass('close');
+			gal2_aberta = false;
+		} 
+	});
+	//desabilita rolagem em gal 1
+	document.getElementById('butgal1').addEventListener('click', function(){
+		fullpage_api.setAllowScrolling(false);
+	});
+	// reabilita rolagem gal 1
+	document.getElementById('off1').addEventListener('click', function(){
+		fullpage_api.setAllowScrolling(true);
+	});
+	//desabilita rolagem em gal 2
+	document.getElementById('butgal2').addEventListener('click', function(){
+		fullpage_api.setAllowScrolling(false);
+	});
+	//reabilita rolagem em gal 2
+	document.getElementById('off2').addEventListener('click', function(){
+		fullpage_api.setAllowScrolling(true);
+	});
+	//botão voltar
+	$(document).on('click', '#beck', function(){
+		fullpage_api.moveTo('headd');
 	});
 });

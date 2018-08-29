@@ -10,17 +10,10 @@ body {
 	color: rgba(255, 255, 255, 1);
 }
 
-
 a {
 	color: rgba(255, 255, 255, 1);
 	text-decoration: none;
 	text-transform: uppercase;
-}
-
-
-
-.section {
-
 }
 
 .inter {
@@ -45,44 +38,13 @@ a {
 	mix-blend-mode: difference;
 }
 
-.black-box {
-	padding: 10px 25px;
-	background: rgba(0, 0, 0, 0.85);
-	mix-blend-mode: hard-light;
-	overflow: auto;
-}
-
-.galeria {
-	padding: 18px 10px;
-	background: #000;
-	overflow: auto;
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	flex: 1;
-}
-
-.galeria img {
-	margin: 3px 15px;
-}
-
-.gal-wrap {
-	width: 85%;
-	height: 90%;
-	display: flex;
-	flex-direction: column;
-}
-
-.txt-wrap {
-	width: 85%;
-	max-height: 90%;
-	display: flex;
-	flex-direction: column;
-}
-
-.texto {
-	font-family: Arial,Helvetica;
-	font-size: 0.9em;
+#beck {
+	position: absolute;
+	z-index: 2;
+	font-size: 1.5em;
+	cursor: pointer;
+	bottom: 50px;
+	right: 90px;
 }
 
 #head {
@@ -95,6 +57,20 @@ a {
 	font-family: Orator, Raleway;
 	height: 108px;
 	text-align: center; 
+}
+
+#menu {
+	background: rgba(0, 0, 0, 0.85);
+	mix-blend-mode: hard-light;
+	flex-wrap: wrap;
+}
+
+#menu > a {
+	padding: 13px 25px;
+	font-size: 12px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	letter-spacing: .1rem;
 }
 
 .titulo-g {
@@ -113,19 +89,70 @@ a {
 	text-align: end;
 }
 
-#menu {
-	background: rgba(0, 0, 0, 0.85);
-	mix-blend-mode: hard-light;
-	flex-wrap: wrap;
+.txt-wrap {
+	width: 85%;
+	max-height: 90%;
+	display: flex;
+	flex-direction: column;
 }
 
-#menu > a {
-	padding: 13px 25px;
-	font-size: 12px;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 600;
-	letter-spacing: .1rem;
+.black-box {
+	padding: 10px 25px;
+	background: rgba(0, 0, 0, 0.85);
+	mix-blend-mode: hard-light;
+	overflow: auto;
 }
+
+.texto {
+	font-family: Arial,Helvetica;
+	font-size: 0.9em;
+}
+
+#gal1 {
+	display: none;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	flex-direction: column;
+}
+
+#gal1.open {
+	display: flex;
+}
+
+#gal2 {
+	display: none;
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	flex-direction: column;
+}
+
+#gal2.open {
+	display: flex;
+}
+
+.galeria {
+	padding: 18px 10px;
+	background: rgba(0, 0, 0, 0.85);
+	mix-blend-mode: hard-light;
+	overflow: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex: 1;
+}
+
+.galeria img {
+	margin: 3px 15px;
+	mix-blend-mode: normal;
+}
+
+#meios.close {
+	display: none;
+}
+
+
 
 @media screen and (max-width:649px) {
 	.traco {
