@@ -1,7 +1,7 @@
-<div id="gal1">
-    <div class="diff titulo-g" id="off1">
+<div id="gal_lambe" class="gal-wrap">
+    <div class="diff titulo-g" id="off_lambe">
         <p>
-            2016 <span class="traco">--------------</span> <span class="final">MURAL FLERTE</span>
+            2016 <span class="traco">--------------</span> <span class="final">Lambe-lambe o festival</span>
         </p>
     </div>
     <div class="galeria">
@@ -25,7 +25,7 @@
                         make_thumb($images_dir.$file,$thumbnail_image,$thumbs_width); 
                     } 
                 } 
-                echo '<a href="',$images_dir.$file,'" data-lightbox="image-1" rel="gallery"><img data-src="',$thumbnail_image,'" /></a>'; 
+                echo '<a href="',$images_dir.$file,'" data-lightbox="image-1" rel="gallery"><img class="thumb" data-src="',$thumbnail_image,'" /></a>'; 
             } 
             echo '<div class="clear"></div>'; 
         } 

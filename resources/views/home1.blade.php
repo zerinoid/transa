@@ -27,11 +27,24 @@
                 @include('elements.sobre')  
             </div>
         </div>
-        <div class="section" data-anchor="med">
-            <div class="inter flex-center">
-              @include('elements.auto_gal1')
-              @include('elements.auto_gal2')
-              @include('elements.meios')
+        <div class="section" data-anchor="acts">
+            <div class="slide"> 
+                <div class="inter flex-center">
+                    @include('elements.batalha')
+                </div>
+            </div>
+            <div class="slide"> 
+                <div class="inter flex-center">
+                    @include('elements.gal_low')
+                    @include('elements.lowcura')
+                </div>
+            </div>
+            <div class="slide"> 
+                <div class="inter flex-center">
+                    @include('elements.gal_lambe')
+                    @include('elements.gal_muraw')
+                    @include('elements.2016')
+                </div>
             </div>            
         </div>
         <div class="section" data-anchor="pes">

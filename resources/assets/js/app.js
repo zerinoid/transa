@@ -24,68 +24,82 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
 		licenseKey: "OPEN-SOURCE-GPLV3-LICENSE",
-		anchors: ['headd', 'about', 'med', 'pes'],
+		anchors: ['headd', 'about', 'acts', 'pes'],
 		scrollingSpeed: 1500,
 		css3: false,
+		scrollOverflow: true,
 	});
-	//abre galeria 1; fecha meios
-	var gal1_aberta = false;
+	//abre galeria lambe; fecha act
+	var gal_lambe_aberta = false;
 
-	$("#butgal1").click(function(){
+	$("#butgal_lambe").click(function(){
 		
-		if(gal1_aberta == false){
-			$('#gal1').addClass('open');
-			$('#meios').addClass('close');
-			gal1_aberta = true;
+		if(gal_lambe_aberta == false){
+			$('#gal_lambe').addClass('open');
+			$('.act').addClass('close');
+			gal_lambe_aberta = true;
 		} 
 	});
-	//fecha galeria 1; abre meios
+	//fecha galeria lambe; abre act
 	$(".titulo-g").click(function(){
 		
-		if(gal1_aberta == true){
-			$('#gal1').removeClass('open');
-			$('#meios').removeClass('close');
-			gal1_aberta = false;
+		if(gal_lambe_aberta == true){
+			$('#gal_lambe').removeClass('open');
+			$('.act').removeClass('close');
+			gal_lambe_aberta = false;
 		} 
 	});
-	//abre gal2; fecha meios
-	var gal2_aberta = false;
+	//abre gal_low; fecha .act
+	var gal_low_aberta = false;
 
-	$("#butgal2").click(function(){
+	$("#butgal_low").click(function(){
 		
-		if(gal2_aberta == false){
-			$('#gal2').addClass('open');
-			$('#meios').addClass('close');
-			gal2_aberta = true;
+		if(gal_low_aberta == false){
+			$('#gal_low').addClass('open');
+			$('.act').addClass('close');
+			gal_low_aberta = true;
 		} 
 	});
-	//fecha gal2; abre meios
+	//fecha gal_lambe; abre act
 	$(".titulo-g").click(function(){
 		
-		if(gal2_aberta == true){
-			$('#gal2').removeClass('open');
-			$('#meios').removeClass('close');
-			gal2_aberta = false;
+		if(gal_low_aberta == true){
+			$('#gal_low').removeClass('open');
+			$('.act').removeClass('close');
+			gal_low_aberta = false;
 		} 
 	});
 	//desabilita rolagem em gal 1
-	document.getElementById('butgal1').addEventListener('click', function(){
+	document.getElementById('butgal_lambe').addEventListener('click', function(){
 		fullpage_api.setAllowScrolling(false);
 	});
 	// reabilita rolagem gal 1
-	document.getElementById('off1').addEventListener('click', function(){
+	document.getElementById('off_lambe').addEventListener('click', function(){
 		fullpage_api.setAllowScrolling(true);
 	});
-	//desabilita rolagem em gal 2
-	document.getElementById('butgal2').addEventListener('click', function(){
+	//desabilita rolagem em gal_low
+	document.getElementById('butgal_low').addEventListener('click', function(){
 		fullpage_api.setAllowScrolling(false);
 	});
-	//reabilita rolagem em gal 2
-	document.getElementById('off2').addEventListener('click', function(){
+	//reabilita rolagem em gal_low
+	document.getElementById('off_low').addEventListener('click', function(){
 		fullpage_api.setAllowScrolling(true);
 	});
 	//botão voltar
 	$(document).on('click', '#beck', function(){
 		fullpage_api.moveTo('headd');
 	});
+
+	// 	$(".thumb").hover(
+	// 	// mouse in
+	// 	function(){
+	// 		$(this).addClass('hover');
+	// 	},
+	// 	// mouse out
+	// 	function(){
+	// 		$(this).removeClass('hover');
+	// 	}
+
+	// );
+	
 });

@@ -1,5 +1,5 @@
-<div id="gal2">
-    <div class="diff titulo-g" id="off2">
+<div id="gal_low" class="gal-wrap">
+    <div class="diff titulo-g" id="off_low">
         <p>
             2017 <span class="traco">--------------</span> <span class="final">LOWCURADORIA</span>
         </p>
@@ -25,7 +25,7 @@
                        make_thumb($images_dir.$file,$thumbnail_image,$thumbs_width); 
                    } 
                } 
-               echo '<a href="',$images_dir.$file,'" data-lightbox="image-1" rel="gallery"><img data-src="',$thumbnail_image,'" /></a>'; 
+               echo '<a href="',$images_dir.$file,'" data-lightbox="image-1" rel="gallery"><img class="thumb" data-src="',$thumbnail_image,'" /></a>'; 
            } 
            echo '<div class="clear"></div>'; 
        } 

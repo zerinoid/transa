@@ -5,6 +5,12 @@
 	src: url('../fonts/OratorStd.otf');
 }
 
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	color: rgba(255, 255, 255, 1);
@@ -12,12 +18,11 @@ body {
 
 a {
 	color: rgba(255, 255, 255, 1);
-	text-decoration: none;
-	text-transform: uppercase;
 }
 
 .inter {
-	height: 100vh;
+	min-height: 100vh;
+	height: 100%;
 	position: relative;
 	background-image: url('../images/fundo_composto_2018.jpg');
 	background-size: cover;
@@ -36,15 +41,6 @@ a {
 	background: rgba(122, 122, 122, 0.9);
 	color: rgba(255, 255, 255, 0.91);
 	mix-blend-mode: difference;
-}
-
-#beck {
-	position: absolute;
-	z-index: 2;
-	font-size: 1.5em;
-	cursor: pointer;
-	bottom: 50px;
-	right: 90px;
 }
 
 #head {
@@ -66,6 +62,9 @@ a {
 }
 
 #menu > a {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+	text-transform: uppercase;
 	padding: 13px 25px;
 	font-size: 12px;
 	font-family: 'Raleway', sans-serif;
@@ -100,7 +99,7 @@ a {
 	padding: 10px 25px;
 	background: rgba(0, 0, 0, 0.85);
 	mix-blend-mode: hard-light;
-	overflow: auto;
+	/*overflow: auto;*/
 }
 
 .texto {
@@ -108,7 +107,7 @@ a {
 	font-size: 0.9em;
 }
 
-#gal1 {
+.gal-wrap {
 	display: none;
 	position: absolute;
 	height: 100vh;
@@ -116,26 +115,25 @@ a {
 	flex-direction: column;
 }
 
-#gal1.open {
+#gal_lambe.open {
 	display: flex;
 }
 
-#gal2 {
+#gal_low.open {
+	display: flex;
+}
+
+#gal_muraw.open {
+	display: flex;
+}
+
+.close {
 	display: none;
-	position: absolute;
-	height: 100vh;
-	width: 100%;
-	flex-direction: column;
-}
-
-#gal2.open {
-	display: flex;
 }
 
 .galeria {
 	padding: 18px 10px;
 	background: rgba(0, 0, 0, 0.85);
-	mix-blend-mode: hard-light;
 	overflow: auto;
 	display: flex;
 	flex-wrap: wrap;
@@ -146,10 +144,38 @@ a {
 .galeria img {
 	margin: 3px 15px;
 	mix-blend-mode: normal;
+	width: 100px;
+	border: 4px solid transparent;
 }
 
-#meios.close {
-	display: none;
+.galeria img:hover {
+	border: 4px solid #6c5e86;
+}
+
+/*.thumb {
+	border: 4px solid transparent;
+}
+
+.hover {
+	border: 4px solid #6c5e86;
+}*/
+
+#beck {
+	position: absolute;
+	z-index: 2;
+	font-size: 1.5em;
+	cursor: pointer;
+	bottom: 50px;
+	right: 90px;
+}
+
+#butgal_lambe { 
+	display: inline-block;
+}
+
+#butgal_muraw {
+	display: inline-block;
+	margin: 0 11px;
 }
 
 
