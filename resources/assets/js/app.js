@@ -87,7 +87,7 @@ $(document).ready(function() {
 	});
 	//botão voltar
 	$(document).on('click', '#beck', function(){
-		fullpage_api.moveTo('headd');
+		fullpage_api.moveTo('hea');
 	});
 
 	// 	$(".thumb").hover(

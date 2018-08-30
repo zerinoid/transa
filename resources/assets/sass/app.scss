@@ -75,13 +75,16 @@ a {
 .titulo-g {
 	font-size: 3em;
 	font-family: Orator, Raleway;
-	max-height: 130px;
-	text-align: justify;
 	padding: 0 0 0 18px;
 }
 
-.titulo-g p {
-	margin: 0;
+.x-close {
+	float: right;
+	margin-right: 15px;
+}
+
+.x-close > a {
+	text-decoration: none;
 }
 
 .final {
@@ -138,7 +141,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	flex: 1;
+	justify-content: center;
 }
 
 .galeria img {
@@ -189,5 +192,12 @@ a {
 	}
 	#titulo-h {
 		font-size: 2.7em;
+	}
+	.titulo-g {
+		font-size: 2.4em;
+	}
+	#beck {
+		bottom: 15px;
+		right: 10px;
 	}
 }

@@ -62,12 +62,14 @@ a {
 .titulo-g {
   font-size: 3em;
   font-family: Orator, Raleway;
-  max-height: 130px;
-  text-align: justify;
   padding: 0 0 0 18px; }
 
-.titulo-g p {
-  margin: 0; }
+.x-close {
+  float: right;
+  margin-right: 15px; }
+
+.x-close > a {
+  text-decoration: none; }
 
 .final {
   text-align: end; }
@@ -114,7 +116,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  flex: 1; }
+  justify-content: center; }
 
 .galeria img {
   margin: 3px 15px;
@@ -153,6 +155,11 @@ a {
   #head {
     width: 90%; }
   #titulo-h {
-    font-size: 2.7em; } }
+    font-size: 2.7em; }
+  .titulo-g {
+    font-size: 2.4em; }
+  #beck {
+    bottom: 15px;
+    right: 10px; } }
 
 /*# sourceMappingURL=app.css.map */

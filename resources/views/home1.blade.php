@@ -17,12 +17,12 @@
 </head>
 <body> 
     <div id="fullpage">   
-        <div class= "section" data-anchor="headd">
+        <div class= "section" data-anchor="hea">
             <div class="inter flex-center">
                 @include('elements.head')
             </div>
         </div>
-        <div class="section" data-anchor="about">
+        <div class="section" data-anchor="abt">
             <div class="inter flex-center">
                 @include('elements.sobre')  
             </div>

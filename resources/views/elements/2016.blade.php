@@ -1,6 +1,6 @@
 <div class="txt-wrap act">
     <div class="diff titulo-g">
-        <p>Muraw-flerte + Lambe-lambe o festival (2016)</p>
+        <span class="traco">>>> </span>Muraw-flerte + Lambe-lambe o festival (2016)<span class="traco"> <<<</span>
     </div>  
     <div class="black-box">
         <div class="texto">

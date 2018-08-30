@@ -1,6 +1,6 @@
 <div class="txt-wrap act">
     <div class="diff titulo-g">
-        <p>Instalação Mandinga-Batalha-Mandinga (2018)</p>
+        <span class="traco">>>> </span>Instalação Mandinga-Batalha-Mandinga (2018)<span class="traco"> <<<</span>
     </div>  
     <div class="black-box">
         <div class="texto">

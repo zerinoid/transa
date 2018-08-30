@@ -1,6 +1,6 @@
 <div class="txt-wrap act">
     <div class="diff titulo-g">
-        <p>Instalação Lowcuradoria (2017)</p>
+        <span class="traco">>>> </span>Instalação Lowcuradoria (2017)<span class="traco"> <<<</span>
     </div>  
     <div class="black-box">
         <div class="texto">

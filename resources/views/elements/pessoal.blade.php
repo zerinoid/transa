@@ -1,6 +1,6 @@
 <div class="txt-wrap">    
     <div class="diff titulo-g">
-        <p><span class="traco">>>></span> Quem peleja <span class="traco"><<<</span></p>
+        <span class="traco">>>></span> Quem peleja <span class="traco"><<<</span>
     </div>  
     <div class="black-box">
         <div class="texto">
