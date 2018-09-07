@@ -52,6 +52,11 @@
                 @include('elements.pessoal')
             </div>
         </div>
+        <div class="section" data-anchor="ctt">
+            <div class="inter flex-center">
+                @include('elements.contato')
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -101,8 +101,7 @@ a {
 .black-box {
 	padding: 10px 25px;
 	background: rgba(0, 0, 0, 0.85);
-	mix-blend-mode: hard-light;
-	/*overflow: auto;*/
+	padding: 25px 33px 30px;
 }
 
 .texto {
@@ -155,13 +154,27 @@ a {
 	border: 4px solid #6c5e86;
 }
 
-/*.thumb {
-	border: 4px solid transparent;
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-auto-rows: minmax(100px, auto);
 }
 
-.hover {
-	border: 4px solid #6c5e86;
-}*/
+.quem {
+	grid-row-start: 1; 
+ 	grid-row-end: 2; 
+ 	justify-content: center;
+	align-items: baseline;
+	display: flex;
+	height: 100px;
+}
+
+.bio {
+	grid-column-start: 1; 
+	grid-column-end: 7; 
+	grid-row-start: 2; 
+ 	grid-row-end: 3; 
+}
 
 #beck {
 	position: absolute;
@@ -180,7 +193,6 @@ a {
 	display: inline-block;
 	margin: 0 11px;
 }
-
 
 
 @media screen and (max-width:649px) {

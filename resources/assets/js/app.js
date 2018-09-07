@@ -89,17 +89,4 @@ $(document).ready(function() {
 	$(document).on('click', '#beck', function(){
 		fullpage_api.moveTo('hea');
 	});
-
-	// 	$(".thumb").hover(
-	// 	// mouse in
-	// 	function(){
-	// 		$(this).addClass('hover');
-	// 	},
-	// 	// mouse out
-	// 	function(){
-	// 		$(this).removeClass('hover');
-	// 	}
-
-	// );
-	
 });
