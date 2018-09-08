@@ -16,7 +16,9 @@
             <p>
                 A curadoria, aqui, é entendida como agência de cura, aspirando a prática curatorial como um lugar imaginário, ao mesmo tempo que material-palpável onde se estabeleça relações entre vários seres e saberes, ligados às múltiplas inteligências, de plantas, de pedras, de divindades da natureza e etc. Trata-se da curadoria como caboclamento intermediando as forças humanas, naturais e sobrenaturais.
             </p>
-            <div id="butgal_low"><a href="#"><strong>Registros</strong></a></div>
+            <div class="butgal" id="butgal_low"><a href='#'><p><strong>Fotos</strong></p></a></div>
+            <div class="butgal" id="butvid_low"><a href='#'><p><strong>Vídeos</strong></p></div>
+            <div class="butgal" id="butsom_low"><a href='#'><p><strong>Audiocolagem</strong></p></div>
             <button id="beck">▲▲▲</button>
         </div> 
     </div>

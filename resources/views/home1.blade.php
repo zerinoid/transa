@@ -35,22 +35,23 @@
             </div>
             <div class="slide"> 
                 <div class="inter flex-center">
-                    @include('elements.gal_low')
+                    @include('elements.gal.gal_low')
+                    @include('elements.gal.som_low')
                     @include('elements.lowcura')
                 </div>
             </div>
             <div class="slide"> 
                 <div class="inter flex-center">
-                    @include('elements.gal_lambe')
-                    @include('elements.gal_muraw')
+                    @include('elements.gal.gal_lambe')
+                    @include('elements.gal.gal_muraw')
                     @include('elements.2016')
                 </div>
             </div>            
         </div>
         <div class="section" data-anchor="pes">
-            <div class="inter flex-center">
-                @include('elements.pessoal')
-            </div>
+                @include('elements.pes.fc')
+                @include('elements.pes.ar')
+                @include('elements.pes.ja')
         </div>
         <div class="section" data-anchor="ctt">
             <div class="inter flex-center">

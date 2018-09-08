@@ -1,6 +1,6 @@
 <div id="gal_low" class="gal-wrap">
     <div class="diff titulo-g" id="off_low">
-            2017 <span class="traco">--------------</span> <span class="final">LOWCURADORIA</span><span class="x-close"><a href="#"> X</a></span>
+            2017 <span class="traco">--------------</span> LOWCURADORIA<span class="x-close"><a href="#"> X</a></span>
     </div>
     <div class="galeria">
         <?php 

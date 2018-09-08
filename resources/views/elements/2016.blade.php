@@ -10,8 +10,8 @@
             <p>
                 Lambe-lambe o festival é a ação de kolagem de lambe-lambes pelos caminhos promovidos por um festival: as idas e vindas às apresentações pela cidade, aos restaurantes, pousadas e hotéis geram percursos onde os lambe-lambes com o #texto-presença serão kolados em postes ou muros, tornando-se rastros da TransaKrytica em seu enkontro com o festival. 
             </p>
-            <div id="butgal_lambe"><a href="#"><strong>Registros Lambe-lambe o festival</strong></a></div>
-            <div id="butgal_muraw"><a href="#"><strong>Registros Muraw-flerte</strong></a></div>
+            <div class="butgal" id="butgal_lambe"><a href="#"><strong><p>Fotos Lambe-lambe o festival</p></strong></a></div>
+            <div class="butgal" id="butgal_muraw"><a href="#"><strong><p>Fotos Muraw-flerte</p></strong></a></div>
             <button id="beck">▲▲▲</button>
         </div> 
     </div>

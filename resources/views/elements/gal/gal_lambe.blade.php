@@ -1,6 +1,6 @@
 <div id="gal_lambe" class="gal-wrap">
     <div class="diff titulo-g" id="off_lambe">
-        2016 <span class="traco">--------------</span> <span class="final">Lambe-lambe o festival</span><span class="x-close"><a href="#"> X</a></span>
+            2016 <span class="traco">--------------</span> Lambe-lambe o festival<span class="x-close"><a href="#"> X</a></span>
     </div>
     <div class="galeria">
         <?php 
