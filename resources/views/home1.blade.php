@@ -12,6 +12,7 @@
     <script src="{{asset('js/app.min.js')}}"></script>
     <script src="{{asset('js/lightbox.js')}}"></script>
     <script src="{{asset('js/scrolloverflow.js')}}"></script>
+    <script src="{{asset('js/easings.min.js')}}"></script>
     <script src="{{asset('js/fullpage.min.js')}}"></script>
     <title>▲</title>
 </head>
